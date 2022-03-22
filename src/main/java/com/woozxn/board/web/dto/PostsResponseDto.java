@@ -1,7 +1,7 @@
 package com.woozxn.board.web.dto;
 
 import com.woozxn.board.domain.posts.Posts;
-import jdk.nashorn.internal.objects.annotations.Getter;
+import lombok.Getter;
 
 @Getter
 public class PostsResponseDto {
